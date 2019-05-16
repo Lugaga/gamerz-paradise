@@ -31,7 +31,7 @@ body,
 header,
 .carousel {
     height: 100%;
-    
+    scroll-behavior: smooth;
 }
 
 
@@ -88,7 +88,7 @@ header,
 }
 
 #lg-paradise {
-    color: goldenrod;
+    color: white;
 }
 
 /* End Navigation Bar Styling */
@@ -115,32 +115,60 @@ h1 {
 }
 
 body {
+    background-color:black;
     overflow-x: hidden;
     font-family: 'Black Ops One', cursive;
+    
+
     
 }
 .lg-gamez{
     background-color: black;
     opacity: 0.8;
     padding: 2%;
-    width: 50%;
-    margin-left: 90px;
-}/* 
-.lg-gamex{
-    background-color: black;
-    opacity: 0.8;
-    padding: 0.25%;
-    width: 30%;
-    margin-left: 400px;
-
-} */
+    width: 55%;
+    margin-left: 80px;
+}
 body {
-    background-image: url(precipace.png);
-    background-repeat: repeat;
+     background: url(precipace.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
  }
 @media only screen and (max-width:768px) {
     body{
         background-color: #000;
         overflow-x: hidden;
     }
+}
+.btn{
+    font-size:50px;
+}
+#design-img:hover {
+    cursor: pointer;
+}
+#design:hover {
+    cursor: pointer;
+}
+#design-p:hover {
+    cursor: pointer;
+}
+#development-img:hover {
+    cursor: pointer;
+}
+#development:hover {
+    cursor: pointer;
+}
+#development-p:hover {
+    cursor: pointer;
+}
+#product-management-img:hover {
+    cursor: pointer;
+}
+#product-management:hover {
+    cursor: pointer;
+}
+#product-management-p:hover {
+    cursor: pointer;
 }

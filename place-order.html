@@ -45,30 +45,30 @@
                 <!-- Left -->
                 <ul class="navbar-nav mr-auto text-uppercase font-weight-bold">
                     <li class="nav-item lg-active">
-                        <a class="nav-link" href="#">Home
+                        <a class="nav-link" href="index.html">Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="lg-menu" href="about-us.html"
+                        <a class="nav-link" id="lg-menu" href="aboutus.html"
                             target="_blank">About Us</a>
                     </li>
                     <li class="nav-item dropdown" id="lg-menu">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">XBOX</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item font-weight-bold" href="#">XBOX ONE</a>
-                            <a class="dropdown-item font-weight-bold" href="#">XBOX 360</a>
-                            <a class="dropdown-item font-weight-bold" href="#">CONSOLES</a>
+                            <a class="dropdown-item font-weight-bold" href="xbox1.html">XBOX ONE</a>
+                            <a class="dropdown-item font-weight-bold" href="xbox360.html">XBOX 360</a>
+                            <a class="dropdown-item font-weight-bold" href="console.html">CONSOLES</a>
                         </div>
                     <li class="nav-item dropdown" id="lg-menu">
                         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">Playstation</a>
                         <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item font-weight-bold" href="#">PlayStation 4</a>
-                            <a class="dropdown-item font-weight-bold" href="#">PlayStation 3</a>
-                            <a class="dropdown-item font-weight-bold" href="#">CONSOLES</a>
-                        </div>
+                            <a class="dropdown-item font-weight-bold" href="ps4.html">PlayStation 4</a>
+                            <a class="dropdown-item font-weight-bold" href="ps3.html">PlayStation 3</a>
+                            <a class="dropdown-item font-weight-bold" href="console.html">CONSOLES</a>
+                     </div>
                     <li class="nav-item">
                         <a class="nav-link" id="lg-menu" href="place-order.html"
                             target="_blank">Order Now!</a>
@@ -124,26 +124,26 @@
                                 <div class="col-md-6">
 
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="First-Name" placeholder="First Name *" value="" />
+                                        <input type="text" class="form-control" name="First-Name" placeholder="First Name *" value="" required/>
                                     </div>
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="Email-Address" placeholder="Email Address *"
-                                            value="" />
+                                            value="" required/>
                                     </div>
                                     <div class="form-group">
                                         <div class="maxl">
                                             <label class="radio inline">
-                                                <input type="radio" name="Gender" value="male" checked>
+                                                <input type="radio" name="Gender" value="male" checked required/>
                                                 <span id="gender"> Male </span>
                                             </label>
                                             <label class="radio inline">
-                                                <input type="radio" name="Gender" value="female">
+                                                <input type="radio" name="Gender" value="female" required/>
                                                 <span id="gender">Female </span>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <select class="form-control">
+                                        <select class="form-control" required>
                                             <option class="hidden" selected disabled>Select Your Game
                                             </option>
                                             <option>FIFA 2019 - XBOX ONE</option>
@@ -154,7 +154,7 @@
                                     </div>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="MPESA-Verification-Code" placeholder="MPESA Verification Code *"
-                                            value="" />
+                                            value="" required/>
                                     </div>
 
                                 </div>
@@ -169,7 +169,7 @@
 
                                     </div>
                                     <div class="form-group">
-                                        <select class="form-control" name="Physical-Address">
+                                        <select class="form-control" name="Physical-Address" required>
                                             <option class="hidden" selected disabled>Physical Address
                                             </option>
                                             <option>BuruBuru</option>
@@ -184,7 +184,7 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <select class="form-control" name="Gaming-Console">
+                                        <select class="form-control" name="Gaming-Console" required>
                                             <option class="hidden" selected disabled>Select Your Gaming Console
                                             </option>
                                             <option>XBOX ONE</option>
@@ -200,10 +200,12 @@
                                     <div class="custom-control custom-checkbox">
                                         <input type="checkbox" name="Terms & Conditions" class="custom-control-input"
                                             value="Yes! I have Agreed To Terms & Conditions" id="defaultUnchecked"
-                                            required />
+                                            required/>
                                         <label class="custom-control-label font-weight-bold"
                                             for="defaultUnchecked">Agree To Terms & Conditions</label>
                                     </div>
+                                    
+                                    <input type="hidden" class="_next" value="place-order.html" />
                                     <input type="submit" class="btnOrder" value="Register" />
                                 </div>
                             </div>
