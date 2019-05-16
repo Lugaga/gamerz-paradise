@@ -1,0 +1,161 @@
+body {
+    background-image: url(../images/playstation/precipace.png);
+    font-family: 'Black Ops One', cursive;
+}
+
+.card-bg-black {
+    background-color: black;
+    color: goldenrod;
+}
+
+.Rent-color {
+    color: black;
+}
+
+.card-body {
+    padding: 0%;
+    padding-top: 3%;
+}
+
+.card-name {
+    display: none;
+}
+
+.card-title {
+    color: goldenrod;
+}
+
+.card {
+    background-color: black;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    color: goldenrod;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+    /* Hidden by default */
+}
+
+
+/* The "show" class is added to the filtered elements */
+
+.show {
+    display: block;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.start {
+    margin-top: 6%;
+}
+
+.stop {
+    margin-top: 4%;
+}
+
+
+/* Start Naviagtion Bar Styling */
+
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+
+.navbar {
+    background-color: rgba(24, 26, 24, 0.2);
+    color: white;
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #000;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #000;
+    }
+}
+
+html,
+body,
+header,
+.carousel {
+    height: 100%;
+}
+
+
+/* @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+    }
+} */
+
+#lg-menu {
+    color: white;
+}
+
+.nav-item>a:hover {
+    background-color: #ffbf00;
+    border-radius: 10px;
+    color: black ! important;
+    font-weight: bolder;
+}
+
+.lg-active {
+    background-color: #ffbf00;
+    border-radius: 10px;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-github {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: rgba(236, 197, 22, 0.5);
+    color: black !important;
+    font-weight: bolder !important;
+}
+
+.dropdown-item a:hover {
+    background-color: rgb(216, 169, 14);
+    color: rgb(206, 201, 190) !important;
+    font-weight: bolder !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1cf09e5;
+    color: white !important;
+    font-weight: bolder !important;
+}
+
+#lg-paradise {
+    color: goldenrod;
+}
+
+
+/* End Navigation Bar Styling */
