@@ -1,0 +1,127 @@
+.about us{
+  text-align: center;
+
+}
+h1{
+  text-align: center;
+  color: goldenrod;
+  margin-top: 70px;
+}
+p{
+  text-align: center;
+  color: goldenrod;
+  font-size: 20px;
+}
+body {
+    background-image: url(precipace.png);
+    background-repeat: repeat;
+    font-family: 'Black Ops One', cursive;
+ }
+.goldenrod{
+  background-color: goldenrod;
+}
+.goldenrod-text{
+  text-align: center;
+  font-size: 70px;
+  padding-top: 300px;
+}
+/* Start Naviagtion Bar Styling */
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+.navbar {
+    background-color: rgba(24, 26, 24, 0.2);
+    color: white;
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #000;
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #000;
+    }
+}
+
+html,
+body,
+header,
+.carousel {
+    height: 100%;
+}
+
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+    }
+}
+
+#lg-menu {
+    color: white;
+}
+
+.nav-item>a:hover {
+    background-color: #ffbf00;
+    border-radius: 10px;
+    color: black ! important;
+    font-weight: bolder;
+}
+
+.lg-active {
+    background-color: #ffbf00;
+    border-radius: 10px;
+}
+
+.fa-facebook-f {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00acee;
+}
+
+.fa-github {
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: rgba(236, 197, 22, 0.5);
+    color: black !important;
+    font-weight: bolder !important;
+}
+.dropdown-item a:hover  {
+    background-color: rgb(216, 169, 14);
+    color: rgb(206, 201, 190) !important;
+    font-weight: bolder !important;
+}
+.dropdown-menu a:hover {
+    background-color: #f1cf09e5;
+    color:white !important;
+    font-weight: bolder !important;
+}
+#lg-paradise{
+    color: goldenrod;
+}
+/* End Navigation Bar Styling */
+.order{
+  padding-top: 200px;
+
+}
+.receive{
+  font-size: 60px;
+  color: white;
+}
+.feedback{
+  font-size: 30px;
+  color: white;
+
+}
