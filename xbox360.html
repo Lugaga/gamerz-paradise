@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/mdb.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+
+
+
+    <title>Xbox360</title>
+</head>
+
+<body class="text-center">
+<!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <a class="navbar-brand text-uppercase font-weight-bold" href="./index.html">Gamerz Paradise</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-uppercase font-weight-bold">
+            <li class="nav-item lg-active">
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about-us.html">ABOUT US <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            XBOX
+          </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./xbox360.html">XBOX&middot;360</a>
+                    <a class="dropdown-item" href="./xbox1.html">XBOX&middot;1</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./console.html">CONSOLE</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PLAYSTATION
+          </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="./ps3.html">PS&middot;3</a>
+                    <a class="dropdown-item" href="./ps4.html">PS&middot;4</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./console.html">CONSOLE</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./place-order.html">ORDER NOW! <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact-us.html">CONTACT US<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+                <a href="https://www.facebook.com" class="nav-link" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://twitter.com" class="nav-link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="https://github.com" class="nav-link" target="_blank">
+                    <i class="fab fa-github mr-2"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <br>
+    <br>
+    <nav class="navbar navbar-light justify-content-center mt-4">
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('racing')"> racing</button>
+            <button class="btn" onclick="filterSelection('fps')"> fps</button>
+            <button class="btn" onclick="filterSelection('action')"> action</button>
+            <button class="btn" onclick="filterSelection('sports')"> sports</button>
+        </div>
+        <form class="form-inline">
+            <input class="form-control form-control-lg mr-sm-2" type="search" placeholder="Type a name" aria-label="Search" id="search">
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+        </form>
+    </nav>
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/darksidersIII.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">darksiders</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/assasinscreedrogue.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">assassins creed</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/BioshockInfinite.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">bioshock infinite</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/codblackops.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">call of duty</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/portal2.png" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">portal2</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/injustice.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">injustice</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv sports" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/nba2k17.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">nba2k17</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/minecraft.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">minecraft</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv sports" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/fifa18.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">fifa18</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv sports" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/rugbyleague.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">rugbyleague</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv racing" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/nfsmw.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">need for speed</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/batman.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">batman</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/borderlands.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">borderlands</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/bureau.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">bureau</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/got.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">game of thrones</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv sports" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/wwe13.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">wwe13</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/drising.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">dead rising</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/farcry3.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">far cry3</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv racing" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/nfstr.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">need for speed</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/spiderm.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">spiderman</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/silenthill.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">silenthill</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/titanfall.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">titanfall</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/traider.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">tombraider</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/smurfs.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">smurfs</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/legobat.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">lego batman</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/lego.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">lego</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/hitmanabsolution.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">hitman</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/frozen.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">frozen</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/fable3.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">fable3</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/deadpool.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">deadpool</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv racing" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/cars.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">cars</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/acb.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">assassins creed</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/anime.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">doonpachi</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/army.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">army</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/destiny.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">destiny</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/marvelcap.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">marvel vs capcom</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/omerta.jpeg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">omerta</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/halo4.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">halo 4</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv action" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/hitmantrilogy.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">hitmantrilogy</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="card ml-4 mt-4 filterDiv fps" style="width: 18rem;">
+                    <div class="view overlay">
+                        <img class="card-img-top card1" src="./images/xbox360/syndicate.jpg" alt="Card image cap">
+                        <a href="#!">
+                            <div class="mask rgba-white-slight flex-center">
+                                <button type="button" class="btn btn-warning btn-md" onclick="window.open('http://place-order.html')"><span class="Rent-color">Rent</span></button>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-name">syndicate</h5>
+                        <h6 class="card-title font-weight-bold">KES 150</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/jquery-3.4.0.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
