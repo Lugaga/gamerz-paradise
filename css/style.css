@@ -31,7 +31,7 @@ body,
 header,
 .carousel {
     height: 100%;
-    
+    scroll-behavior: smooth;
 }
 
 
@@ -115,8 +115,11 @@ h1 {
 }
 
 body {
+    background-color:black;
     overflow-x: hidden;
     font-family: 'Black Ops One', cursive;
+    
+
     
 }
 .lg-gamez{
@@ -127,8 +130,7 @@ body {
     margin-left: 80px;
 }
 body {
-    background-color:black;
-    background: url(precipace.png) no-repeat center center fixed; 
+     background: url(precipace.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
