@@ -145,3 +145,30 @@ body {
 .btn{
     font-size:50px;
 }
+#design-img:hover {
+    cursor: pointer;
+}
+#design:hover {
+    cursor: pointer;
+}
+#design-p:hover {
+    cursor: pointer;
+}
+#development-img:hover {
+    cursor: pointer;
+}
+#development:hover {
+    cursor: pointer;
+}
+#development-p:hover {
+    cursor: pointer;
+}
+#product-management-img:hover {
+    cursor: pointer;
+}
+#product-management:hover {
+    cursor: pointer;
+}
+#product-management-p:hover {
+    cursor: pointer;
+}
