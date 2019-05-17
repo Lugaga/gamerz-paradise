@@ -16,3 +16,6 @@ $(document).ready(function() {
     $("#product-management-img").toggle();
   });
 });
+$(".form_datetime").datetimepicker({
+  format: "dd MM yyyy - hh:ii"
+});
